@@ -63,7 +63,7 @@ To further analyze the model performance, confusion matrices for each model are 
 
 
 ## Conclusion
-This project demonstrates the potential of fine-tuned large language models in detecting fake news, even when constrained by the short length of the text samples. The results highlight the trade-offs between model complexity, size, and effectiveness, providing valuable insights for future research and applications in the field of fake news detection.
+
 
 ## References
 - [Dataset Name 1] - [Link or citation]
