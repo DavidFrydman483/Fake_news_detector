@@ -58,7 +58,34 @@ To further analyze the model performance, confusion matrices for each model are 
 #### LSTM
 ![LSTM Confusion Matrix](path/to/lstm_confusion_matrix.png)
 
-## How to Run
+### How to Run
+
+This project was originally developed and executed on a Kaggle notebook. Follow these steps to run the model on Kaggle:
+
+1. **Set Up a Kaggle Notebook:**
+   - Log in to your Kaggle account.
+   - Navigate to the [Kaggle Notebooks](https://www.kaggle.com/notebooks) section.
+   - Click on "New Notebook" to create a fresh notebook.
+
+2. **Clone the Repository:**
+   - In your Kaggle notebook, clone this repository by running the following command in a new code cell:
+     ```bash
+     !git clone https://github.com/DavidFrydman483/Fake_news_detector.git
+     ```
+
+3. **Navigate to the Project Directory:**
+   - After cloning, navigate to the project directory:
+     ```bash
+     %cd Fake_news_detector
+     ```
+
+4. **Open and Run the Jupyter Notebook:**
+   - Locate the `.ipynb` file within the repository and open it in your Kaggle notebook environment.
+   - Run each cell sequentially to execute the model.
+
+5. **Adjustments for Local Environment (Optional):**
+   - If you plan to run this model in a different environment (e.g., local machine), you might need to adjust file paths, install required dependencies, or modify the environment settings.
+
 
 
 
