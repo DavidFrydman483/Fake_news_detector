@@ -46,8 +46,8 @@ The models were evaluated based on four standard binary classification metrics: 
 ### Confusion Matrices
 
 To further analyze the model performance, confusion matrices for each model are provided below:
-1: real news
-0: fake news
+
+1 - real news , 0 - fake news
 
 #### BERT
 ![BERT Confusion Matrix](BERT_confusion_matrix.png)
@@ -93,6 +93,10 @@ This project was originally developed and executed on a Kaggle notebook. Follow 
 
 
 ## Conclusion
+
+Our results demonstrate that the fine-tuned LLM models—**BERT**, **DistilBERT**, and **ALBERT**—outperform the **LSTM** model in terms of accuracy. BERT holds a slight advantage, though it comes with a larger model size, while DistilBERT delivers similar results in a more compact form. ALBERT, although efficient with fewer parameters, trails slightly in accuracy.
+
+This comparison highlights the trade-off between model size and performance, where the LLM models achieve better accuracy but at the cost of significantly larger model sizes.
 
 
 ## References
