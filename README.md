@@ -100,9 +100,14 @@ This comparison highlights the trade-off between model size and performance, whe
 
 
 ## References
-- [Dataset Name 1] - [[Link or citation]]
-- [Dataset Name 2] - [Link or citation]
-- [Dataset Name 3] - [Link or citation]
-- [Dataset Name 4] - [Link or citation]
-- [Dataset Name 5] - [Link or citation]
-- [Dataset Name 6] - [Link or citation]
+- LIAR dataset - https://huggingface.co/datasets/ucsbnlp/liar/tree/main
+- FakeNewsNet - https://www.kaggle.com/datasets/algord/fake-news
+- ISOT Fake News Dataset - https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets
+- WELFake_Dataset - https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
+- Fake or Real News - https://www.kaggle.com/datasets/jillanisofttech/fake-or-real-news
+- newsdatasetwithcoviddata - https://github.com/prathameshmahankal/Fake-News-Detection-Using-BERT
+- BertForSequenceClassification - https://huggingface.co/transformers/v3.0.2/model_doc/bert.html#bertforsequenceclassification
+- AlbertForSequenceClassification - https://huggingface.co/transformers/v3.0.2/model_doc/albert.html#albertforsequenceclassification
+- DistilBertForSequenceClassification - https://huggingface.co/docs/transformers/v4.44.0/en/model_doc/distilbert#transformers.DistilBertForSequenceClassification
+- Inspired by prathameshmahankal - Fake-News-Detection-Using-BERT - https://github.com/prathameshmahankal/Fake-News-Detection-Using-BERT
+
