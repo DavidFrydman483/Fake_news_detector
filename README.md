@@ -46,12 +46,14 @@ The models were evaluated based on four standard binary classification metrics: 
 ### Confusion Matrices
 
 To further analyze the model performance, confusion matrices for each model are provided below:
+1: real news
+0: fake news
 
 #### BERT
 ![BERT Confusion Matrix](BERT_confusion_matrix.png)
 
 #### DistilBERT
-![DistilBERT Confusion Matrix](DISTlLBERT_confusion_matrix.png)
+![DistilBERT Confusion Matrix](DISTILBERT_confusion_matrix.png)
 
 #### ALBERT
 ![ALBERT Confusion Matrix](ALBERT_confusion_matrix.png)
