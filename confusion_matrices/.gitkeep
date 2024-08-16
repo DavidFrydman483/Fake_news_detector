@@ -1,4 +1,0 @@
-mv BERT_confusion_matrix.png confusion_matrices/
-mv DistilBERT_confusion_matrix.png confusion_matrices/
-mv ALBERT_confusion_matrix.png confusion_matrices/
-mv LSTM_confusion_matrix.png confusion_matrices/
