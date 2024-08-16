@@ -13,7 +13,7 @@ In this project, we fine-tuned several state-of-the-art language models, includi
 - **DistilBERT**: A smaller and faster variant of BERT, designed for resource efficiency.
 - **ALBERT**: A version of BERT with parameter-reduction techniques, intended for faster training and deployment.
 
-All LLMs were imported from Hugging Face and fine-tuned using LoRA (Low-Rank Adaptation), making it possible to adapt these pre-trained models to the fake news detection task efficiently.
+All LLMs were imported from Hugging Face and fine-tuned using DoRA (Weight-Decomposed Low-Rank Adaptation), making it possible to adapt these pre-trained models to the fake news detection task efficiently.
 
 ### 2. LSTM (Long Short-Term Memory)
 An LSTM model was implemented to create a baseline for comparison. Although not as powerful as the transformer-based models, LSTMs have traditionally been effective in sequence-based tasks.
@@ -100,7 +100,7 @@ This comparison highlights the trade-off between model size and performance, whe
 
 
 ## References
-- LIAR dataset - https://huggingface.co/datasets/ucsbnlp/liar/tree/main
+- LIAR dataset - https://github.com/tfs4/liar_dataset?tab=readme-ov-file
 - FakeNewsNet - https://www.kaggle.com/datasets/algord/fake-news
 - ISOT Fake News Dataset - https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets
 - WELFake_Dataset - https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
