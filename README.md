@@ -48,16 +48,16 @@ The models were evaluated based on four standard binary classification metrics: 
 To further analyze the model performance, confusion matrices for each model are provided below:
 
 #### BERT
-![BERT Confusion Matrix](path/to/bert_confusion_matrix.png)
+![BERT Confusion Matrix](BERT_confusion_matrix.png)
 
 #### DistilBERT
-![DistilBERT Confusion Matrix](path/to/distilbert_confusion_matrix.png)
+![DistilBERT Confusion Matrix](DISTlLBERT_confusion_matrix.png)
 
 #### ALBERT
-![ALBERT Confusion Matrix](path/to/albert_confusion_matrix.png)
+![ALBERT Confusion Matrix](ALBERT_confusion_matrix.png)
 
 #### LSTM
-![LSTM Confusion Matrix](path/to/lstm_confusion_matrix.png)
+![LSTM Confusion Matrix](LSTM_confusion_matrix.png)
 
 ### How to Run
 
