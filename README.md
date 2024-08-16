@@ -20,14 +20,14 @@ An LSTM model was implemented to create a baseline for comparison. Although not 
 
 ## Dataset
 
-Our dataset for training consists of 280,000 short text samples, each no longer than 40 words. These samples were gathered by merging six different datasets. Below is the breakdown of each dataset used:
+Our dataset for training consists of 286,018 short text samples, each no longer than 40 words. These samples were gathered by merging six different datasets. Below is the breakdown of each dataset used:
 
-1. **[Dataset Name 1]**: [Number of samples]
-2. **[Dataset Name 2]**: [Number of samples]
-3. **[Dataset Name 3]**: [Number of samples]
-4. **[Dataset Name 4]**: [Number of samples]
-5. **[Dataset Name 5]**: [Number of samples]
-6. **[Dataset Name 6]**: [Number of samples]
+1. **LIAR dataset**: [Number of samples]
+2. **FakeNewsNet**: [Number of samples]
+3. **ISOT Fake News Dataset**: [Number of samples]
+4. **WELFake_Dataset**: [Number of samples]
+5. **Fake or Real News**: [Number of samples]
+6. **newsdatasetwithcoviddata**: [Number of samples]
 
 The merging of these datasets helped to create a diverse and robust training set, ensuring a wide coverage of fake and real news examples.
 
@@ -93,7 +93,7 @@ This project was originally developed and executed on a Kaggle notebook. Follow 
 
 
 ## References
-- [Dataset Name 1] - [Link or citation]
+- [Dataset Name 1] - [[Link or citation]]
 - [Dataset Name 2] - [Link or citation]
 - [Dataset Name 3] - [Link or citation]
 - [Dataset Name 4] - [Link or citation]
