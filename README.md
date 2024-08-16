@@ -35,12 +35,13 @@ The merging of these datasets helped to create a diverse and robust training set
 
 The models were evaluated based on four standard binary classification metrics: accuracy, precision, recall, and F1-score. 
 
-| Model       | Accuracy | Precision | Recall | F1-Score |
-|-------------|----------|-----------|--------|----------|
-| BERT        | [Insert] | [Insert]  | [Insert] | [Insert] |
-| DistilBERT  | [Insert] | [Insert]  | [Insert] | [Insert] |
-| ALBERT      | [Insert] | [Insert]  | [Insert] | [Insert] |
-| LSTM        | [Insert] | [Insert]  | [Insert] | [Insert] |
+| Metric            | BERT      | ALBERT    | DistilBERT | LSTM      |
+|-------------------|-----------|-----------|------------|-----------|
+| **Test Loss**     | 0.3566    | 0.3050    | 0.3695     | 0.4657    |
+| **Test Accuracy** | 86.34%    | 84.84%    | 86.13%     | 82.78%    |
+| **Test Precision**| 94.90%    | 95.20%    | 95.28%     | 85.13%    |
+| **Test Recall**   | 82.77%    | 79.96%    | 82.05%     | 82.78%    |
+| **Test F1**       | 88.42%    | 86.92%    | 88.17%     | 83.06%    |
 
 ### Confusion Matrices
 
