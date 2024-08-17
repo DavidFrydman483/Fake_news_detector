@@ -61,35 +61,22 @@ To further analyze the model performance, confusion matrices for each model are 
 #### LSTM
 ![LSTM Confusion Matrix](LSTM_confusion_matrix.png)
 
-### How to Run
 
-This project was originally developed and executed on a Kaggle notebook. Follow these steps to run the model on Kaggle:
+## How to Run
 
-1. **Set Up a Kaggle Notebook:**
-   - Log in to your Kaggle account.
-   - Navigate to the [Kaggle Notebooks](https://www.kaggle.com/notebooks) section.
-   - Click on "New Notebook" to create a fresh notebook.
+To run the notebook on Google Colab, follow these steps (note that some adjustments may be needed if using a different environment):
 
-2. **Clone the Repository:**
-   - In your Kaggle notebook, clone this repository by running the following command in a new code cell:
-     ```bash
-     !git clone https://github.com/DavidFrydman483/Fake_news_detector.git
-     ```
+1. **Log in to Google Colab:**
+   - Open your web browser and go to [Google Colab](https://colab.research.google.com/).
 
-3. **Navigate to the Project Directory:**
-   - After cloning, navigate to the project directory:
-     ```bash
-     %cd Fake_news_detector
-     ```
+2. **Import the Notebook from GitHub:**
+   - Click on "File" -> "Upload Notebook."
+   - In the dialog box that appears, click on the "GitHub" tab.
+   - In the search bar, type in `DavidFrydman483/Fake_news_detector` and press "Enter."
+   - Select the `Fake_news_detector` notebook from the search results.
 
-4. **Open and Run the Jupyter Notebook:**
-   - Locate the `.ipynb` file within the repository and open it in your Kaggle notebook environment.
-   - Run each cell sequentially to execute the model.
-
-5. **Adjustments for Local Environment (Optional):**
-   - If you plan to run this model in a different environment (e.g., local machine), you might need to adjust file paths, install required dependencies, or modify the environment settings.
-
-
+3. **Run the Notebook:**
+   - Once the notebook is fully loaded, you can start running the cells by clicking on each cell’s "Run" button or by selecting "Runtime" -> "Run all" from the menu.
 
 
 ## Conclusion
